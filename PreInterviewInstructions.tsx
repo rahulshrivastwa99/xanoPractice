@@ -7,7 +7,8 @@ import {
   Shirt, 
   Home, 
   Video, 
-  Monitor, 
+  Monitor,
+-Node Code {bumbel},
   AlertTriangle,
   Mic,
   ArrowRight,
@@ -231,6 +232,10 @@ const PreInterviewInstructions = () => {
             <AlertTriangle className="w-4 h-4" />
             Any violation of the above rules may result in immediate disqualification.
           </div>
+const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+  };
 
         </motion.div>
       </motion.div>
